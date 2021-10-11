@@ -1,2 +1,2 @@
 # my-pwp-arlen
-My personal website projecct
+My personal website project
