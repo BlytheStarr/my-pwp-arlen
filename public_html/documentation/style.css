@@ -5,9 +5,11 @@ body {
 }
 
 h2 {
-    text-decoration: underline
+    text-decoration: underline;
+    padding-top: 2em;
 }
 
 h3 {
     font-style: italic;
+    padding-top: 3em;
 }
