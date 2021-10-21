@@ -13,3 +13,7 @@ h3 {
     font-style: italic;
     padding-top: 3em;
 }
+
+img {
+    max-height: 1300px;
+}
