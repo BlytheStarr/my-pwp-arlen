@@ -24,3 +24,15 @@ body {
     padding: 30px;
     text-align: center;
 }
+
+.contactForm{
+    margin-bottom: 50px;
+}
+
+.input-group-prepend{
+   width: 0;
+}
+
+.talkToMe{
+   margin-right: 50px;
+}
