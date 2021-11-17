@@ -2,24 +2,20 @@ body {
     background-color: dimgrey;
 }
 
-
-h1 {
-    text-align: center;
+.contactForm{
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-/*div {*/
-/*    text-align: center;*/
-/*}*/
-
-.carousel .item {
-    height: 500px;
-}
-
-.item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 500px;
+.carousel {
+    /*width:840px;*/
+    /*height:560px;*/
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
 }
 
 .accordion.width {
@@ -49,3 +45,4 @@ h1 {
     height: auto;
     width: 0;
 }
+

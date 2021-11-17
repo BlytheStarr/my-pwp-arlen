@@ -33,7 +33,6 @@ const handleGetRequest = (request, response) => {
 
 const handlePostRequest = (request, response) => {
     response.append('Content-Type', 'text/html')
-    response.append("Access-Control-Allow-Origin", "*")
 
     if (request.recaptcha.error) {
         return response.send(
@@ -60,7 +59,7 @@ const handlePostRequest = (request, response) => {
     mg.messages.create(process.env.MAILGUN_DOMAIN, mailgunData)
         .then(msg =>
             response.send(
-                `<div class='alert alert-success' role='alert' >Email was successfully sent</div>`
+                `<div class='alert alert-success' role='alert' ></div>`
             ))
         .catch(err =>
             response.send(
